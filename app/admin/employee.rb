@@ -1,4 +1,5 @@
 ActiveAdmin.register Employee do
+  permit_params :full_name, :possition
 
 
   # See permitted parameters documentation:
